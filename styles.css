@@ -8,6 +8,96 @@
     --color-border: #dbdbdb;
 }
 
+  
+  /* Style the post-page container */
+  .post-page {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+  
+  /* Style the post container */
+  .post-container {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style the header tag */
+  .head-tag {
+    text-align: center;
+  }
+  
+  .head-tag h6 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Style the inputs */
+  .inputs {
+    padding: 20px;
+  }
+  
+  /* Style the label for the image upload */
+  .post-image label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Style the image upload input */
+  #image-upload {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the label for the post caption */
+  .post-caption label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Style the post caption textarea */
+  #post-caption {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Style the Post button */
+  .post-button button {
+    display: block;
+    width: 100%;
+    background-color: #3897f0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .post-button button:hover {
+    background-color: #357ABD;
+  }
+  
+  
+
 .main-container {
     height: 100vh;
     margin: 0;
@@ -79,6 +169,7 @@
     border-radius: 50%;
 }
 
+
 .navbar-icons-inner {
     padding: 0 0 0 24px;
     display: flex;
@@ -91,7 +182,13 @@
 .margin-left-small {
     margin-left: 14px;
 }
+.post-btn {
+    background-color: #fafafa;
+    border: none;
+    width: 215px;
+    height: 28px;
 
+}
 main {
     height: calc(100vh - 54px);
     background-color: #fafafa;
@@ -278,7 +375,11 @@ main {
     padding: 10px;
 
 }
-
+.logout {
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
 .user-details {
     display: flex;
     flex-direction: column;
